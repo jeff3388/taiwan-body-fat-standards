@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Taiwan Body Fat Standards Schema",
+  "definitions": {
+    "BodyFatRange": {
+      "type": "object",
+      "required": ["id", "standard", "sex", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "standard": { "type": "string", "enum": ["taiwan_mhw", "acsm", "who", "comparison"] },
+        "sex": { "type": "string", "enum": ["male", "female", "both"] },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["category", "body_fat_percent_range"],
+            "properties": {
+              "category": { "type": "string" },
+              "body_fat_percent_range": { "type": "string" },
+              "health_risk_zh": { "type": "string" }
+            }
+          }
+        },
+        "source": { "type": "string" }
+      }
+    },
+    "MeasurementMethod": {
+      "type": "object",
+      "required": ["id", "method_zh", "method_en", "accuracy", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "method_zh": { "type": "string" },
+        "method_en": { "type": "string" },
+        "accuracy": {
+          "type": "object",
+          "properties": {
+            "typical_error_percent": { "type": "string" }
+          }
+        },
+        "pros_zh": { "type": "array", "items": { "type": "string" } },
+        "cons_zh": { "type": "array", "items": { "type": "string" } },
+        "source": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "taiwan-mhw-male",
+    "standard": "taiwan_mhw",
+    "standard_name_zh": "台灣衛福部國民健康署（2014）",
+    "sex": "male",
+    "age_group": "成人（18–64歲）",
+    "categories": [
+      {
+        "category": "過輕（偏低）",
+        "body_fat_percent_range": "< 10%",
+        "health_risk_zh": "激素功能障礙、免疫力下降、骨質流失風險"
+      },
+      {
+        "category": "健康體位",
+        "body_fat_percent_range": "10–25%",
+        "health_risk_zh": "代謝疾病風險最低"
+      },
+      {
+        "category": "體脂過高（預警）",
+        "body_fat_percent_range": "25–30%",
+        "health_risk_zh": "代謝症候群風險上升"
+      },
+      {
+        "category": "肥胖（高風險）",
+        "body_fat_percent_range": "≥ 30%",
+        "health_risk_zh": "糖尿病、心血管疾病、高血壓風險顯著升高"
+      }
+    ],
+    "source": "衛福部國民健康署健康體重管理手冊（2014）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "taiwan-mhw-female",
+    "standard": "taiwan_mhw",
+    "standard_name_zh": "台灣衛福部國民健康署（2014）",
+    "sex": "female",
+    "age_group": "成人（18–64歲）",
+    "categories": [
+      {
+        "category": "過輕（偏低）",
+        "body_fat_percent_range": "< 20%",
+        "health_risk_zh": "月經失調（amenorrhea）、骨質疏鬆、生育能力下降風險"
+      },
+      {
+        "category": "健康體位",
+        "body_fat_percent_range": "20–30%",
+        "health_risk_zh": "代謝疾病風險最低"
+      },
+      {
+        "category": "體脂過高（預警）",
+        "body_fat_percent_range": "30–35%",
+        "health_risk_zh": "代謝症候群風險上升"
+      },
+      {
+        "category": "肥胖（高風險）",
+        "body_fat_percent_range": "≥ 35%",
+        "health_risk_zh": "糖尿病、心血管疾病、部分癌症風險升高"
+      }
+    ],
+    "source": "衛福部國民健康署健康體重管理手冊（2014）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "acsm-male",
+    "standard": "acsm",
+    "standard_name_zh": "ACSM（美國運動醫學會，2018）",
+    "sex": "male",
+    "age_groups": [
+      {
+        "age_range": "20–29歲",
+        "very_lean": "< 11%",
+        "excellent": "11–13%",
+        "good": "14–17%",
+        "fair": "18–22%",
+        "poor": "> 22%"
+      },
+      {
+        "age_range": "30–39歲",
+        "very_lean": "< 12%",
+        "excellent": "12–15%",
+        "good": "16–20%",
+        "fair": "21–24%",
+        "poor": "> 24%"
+      },
+      {
+        "age_range": "40–49歲",
+        "very_lean": "< 14%",
+        "excellent": "14–17%",
+        "good": "18–22%",
+        "fair": "23–26%",
+        "poor": "> 26%"
+      },
+      {
+        "age_range": "50–59歲",
+        "very_lean": "< 15%",
+        "excellent": "15–18%",
+        "good": "19–23%",
+        "fair": "24–27%",
+        "poor": "> 27%"
+      }
+    ],
+    "source": "ACSM's Guidelines for Exercise Testing and Prescription, 10th ed. (2018)",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "acsm-female",
+    "standard": "acsm",
+    "standard_name_zh": "ACSM（美國運動醫學會，2018）",
+    "sex": "female",
+    "age_groups": [
+      {
+        "age_range": "20–29歲",
+        "very_lean": "< 16%",
+        "excellent": "16–19%",
+        "good": "20–23%",
+        "fair": "24–28%",
+        "poor": "> 28%"
+      },
+      {
+        "age_range": "30–39歲",
+        "very_lean": "< 17%",
+        "excellent": "17–20%",
+        "good": "21–24%",
+        "fair": "25–29%",
+        "poor": "> 29%"
+      },
+      {
+        "age_range": "40–49歲",
+        "very_lean": "< 20%",
+        "excellent": "20–23%",
+        "good": "24–27%",
+        "fair": "28–32%",
+        "poor": "> 32%"
+      },
+      {
+        "age_range": "50–59歲",
+        "very_lean": "< 22%",
+        "excellent": "22–25%",
+        "good": "26–30%",
+        "fair": "31–35%",
+        "poor": "> 35%"
+      }
+    ],
+    "source": "ACSM's Guidelines for Exercise Testing and Prescription, 10th ed. (2018)",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "asian-bmi-fat-difference",
+    "comparison_zh": "亞洲人（台灣）與歐美族群體脂肪差異說明",
+    "key_finding_zh": "相同 BMI 下，亞洲人體脂肪比例平均高於歐美白人 3–5%",
+    "example_zh": "BMI 23 的台灣男性，體脂肪比例可能等同 BMI 25–26 的歐美男性",
+    "implication_zh": "這是台灣（亞洲）採用較低 BMI 肥胖切點（≥ 27 而非 WHO 的 ≥ 30）的原因",
+    "metabolic_risk_elevation_zh": "台灣研究顯示 BMI 24–26.9 族群的代謝症候群、糖尿病、高血壓風險已顯著升高，不應等到 BMI ≥ 30 才介入",
+    "source": "Deurenberg P et al. (2002) Asia Pac J Clin Nutr. PMID: 12022029；WHO Expert Consultation (2004) Lancet. PMID: 14728096",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]

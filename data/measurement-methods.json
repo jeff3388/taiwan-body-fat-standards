@@ -1,0 +1,122 @@
+[
+  {
+    "id": "bia",
+    "method_zh": "生物電阻抗分析（BIA）",
+    "method_en": "Bioelectrical Impedance Analysis",
+    "availability_taiwan_zh": "家用體脂計（Tanita、Omron 等品牌）、健身房、診所。台灣 7-Eleven 部分門市有 InBody 機台（需付費）",
+    "accuracy": {
+      "typical_error_percent": "±3–5%（家用設備）",
+      "clinical_grade_error": "±2–3%（InBody 等多頻段設備）"
+    },
+    "pros_zh": [
+      "快速（30秒）、方便、無輻射",
+      "可追蹤體脂和肌肉量變化趨勢",
+      "台灣家用體脂計普及，Tanita/Omron 約 1000–3000 元"
+    ],
+    "cons_zh": [
+      "受水合狀態影響大（飲水多/少可使體脂顯示差 3–5%）",
+      "餐後、運動後、月經期間準確度下降",
+      "不同設備間讀數不可直接比較"
+    ],
+    "best_practice_zh": "每次測量條件一致：早晨空腹、排尿後、未運動、月經週期同一時期（女性）。追蹤趨勢比單次數值更有意義",
+    "source": "Biospace (2023) InBody Technical Validation；Kyle UG et al. (2004) Clin Nutr. PMID: 15380953",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "skinfold-calipers",
+    "method_zh": "皮脂厚度夾測量法（Skinfold Calipers）",
+    "method_en": "Skinfold thickness measurement",
+    "availability_taiwan_zh": "需要經過訓練的操作者（健身教練、運動科學師）。皮脂夾約 300–3000 元（Harpenden 品牌精準度最高）",
+    "accuracy": {
+      "typical_error_percent": "±3–4%（有經驗操作者）",
+      "inexperienced_operator_error": "可達 ±7% 以上"
+    },
+    "measurement_sites_zh": {
+      "three_site_male": "胸部、腹部、大腿（Jackson-Pollock 三點公式）",
+      "three_site_female": "三頭肌、髂上、大腿",
+      "seven_site": "胸部、腋中、三頭肌、肩胛下、腹部、髂上、大腿（最準確）"
+    },
+    "pros_zh": [
+      "費用低、無需設備電源",
+      "可分析特定部位皮下脂肪分布",
+      "結果不受水合狀態影響"
+    ],
+    "cons_zh": [
+      "需要熟練操作者，重複性依賴技術",
+      "肥胖者皮脂較厚，測量困難度增加",
+      "無法直接測量內臟脂肪"
+    ],
+    "source": "Jackson AS & Pollock ML (1978) Br J Nutr. PMID: 718832",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "dexa",
+    "method_zh": "雙能量 X 光吸收儀（DEXA/DXA）",
+    "method_en": "Dual-energy X-ray Absorptiometry",
+    "availability_taiwan_zh": "醫療院所骨質密度檢查室（台大醫院、榮總等醫學中心）。自費約 1000–2000 元。台灣健保有條件給付骨質疏鬆患者",
+    "accuracy": {
+      "typical_error_percent": "±1–2%（金標準之一）"
+    },
+    "pros_zh": [
+      "目前最準確的臨床體脂測量方法之一",
+      "同時測量骨密度（適合更年期女性或骨質疏鬆評估）",
+      "可分區顯示軀幹、四肢體脂和肌肉量",
+      "輻射劑量極低（相當於 1–4 微西弗，乘飛機台北→東京約 50 微西弗）"
+    ],
+    "cons_zh": [
+      "費用較高、需就醫",
+      "不同廠牌 DEXA 設備數值不完全一致",
+      "孕婦禁用"
+    ],
+    "best_use_zh": "適合需要精確基準值的族群（運動員、進行體重管理計畫的患者）或骨密度評估需求者",
+    "source": "Shepherd JA et al. (2017) J Clin Densitom. PMID: 28527767",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "hydrostatic-weighing",
+    "method_zh": "水中秤重法（Hydrostatic Weighing）",
+    "method_en": "Underwater / Hydrostatic weighing",
+    "availability_taiwan_zh": "台灣體育大學、部分運動科學研究中心。民眾使用機會有限",
+    "accuracy": {
+      "typical_error_percent": "±1–2%（傳統金標準）"
+    },
+    "pros_zh": [
+      "歷史悠久的研究金標準",
+      "基於 Archimedes 浮力原理，物理意義清晰"
+    ],
+    "cons_zh": [
+      "需要完全浸入水中並完全吐氣，受測者配合度要求高",
+      "殘氣量測量誤差影響準確度",
+      "台灣民眾實際使用機會極少，已逐漸被 DEXA 取代"
+    ],
+    "source": "Behnke AR & Wilmore JH (1974) Evaluation and Regulation of Body Build and Composition",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "waist-circumference",
+    "method_zh": "腰圍測量（間接內臟脂肪指標）",
+    "method_en": "Waist circumference",
+    "availability_taiwan_zh": "最便利的自我測量方法。軟尺約 10 元，超市、藥局均有",
+    "taiwan_cutpoints": {
+      "male_risk_cm": 90,
+      "female_risk_cm": 80,
+      "standard_zh": "衛福部國民健康署代謝症候群診斷標準（2007）"
+    },
+    "measurement_method_zh": "肋骨下緣與髂骨上緣中點（側腹）水平測量，正常呼吸後量（非縮腹）",
+    "pros_zh": [
+      "免費、簡單、可在家自行測量",
+      "與內臟脂肪相關性高於 BMI",
+      "預測代謝症候群、心血管疾病的實用指標"
+    ],
+    "cons_zh": [
+      "無法區分皮下脂肪和內臟脂肪",
+      "測量位置不一致導致誤差"
+    ],
+    "waist_height_ratio_zh": {
+      "recommendation_zh": "腰高比（腰圍÷身高）< 0.5 為健康目標，比腰圍單獨使用更具跨族群適用性",
+      "source": "Browning LM et al. (2010) Obes Rev. PMID: 19587651"
+    },
+    "source": "衛福部國民健康署代謝症候群診斷標準（2007）",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]

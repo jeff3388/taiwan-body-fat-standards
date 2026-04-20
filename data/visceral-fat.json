@@ -1,0 +1,91 @@
+[
+  {
+    "id": "visceral-fat-overview",
+    "topic_zh": "內臟脂肪概論",
+    "definition_zh": "內臟脂肪（visceral adipose tissue, VAT）是堆積在腹腔內器官周圍（肝臟、胰臟、腸道）的脂肪，不同於皮下脂肪（subcutaneous fat）位於皮膚下方",
+    "why_dangerous_zh": "內臟脂肪具有高代謝活性，持續分泌促發炎細胞激素（IL-6、TNF-α）和游離脂肪酸，直接進入門脈循環影響肝臟代謝，導致：胰島素阻抗、高三酸甘油酯、低 HDL、高血壓、非酒精性脂肪肝",
+    "taiwan_context_zh": "台灣代謝症候群盛行率約 30–34%（2017–2020 年國民健康訪問調查）。腹部肥胖（腰圍超標）是五項診斷標準中最常見的異常項目",
+    "source": "Després JP & Lemieux I (2006) Nature. PMID: 17122849；衛福部代謝症候群調查（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "waist-circumference-standard",
+    "topic_zh": "腰圍標準與代謝症候群診斷",
+    "taiwan_standard": {
+      "male_cutpoint_cm": 90,
+      "female_cutpoint_cm": 80,
+      "authority_zh": "衛福部國民健康署代謝症候群診斷標準（2007）",
+      "note_zh": "台灣女性切點 80cm 低於 IDF（亞洲女性 80cm，與台灣一致）和美國 NCEP-ATP III（88cm）"
+    },
+    "metabolic_syndrome_criteria_zh": "腰圍超標 + 以下四項中至少兩項：血壓 ≥ 130/85mmHg、空腹血糖 ≥ 100mg/dL、三酸甘油酯 ≥ 150mg/dL、HDL 男 < 40mg/dL 或女 < 50mg/dL",
+    "taiwan_prevalence_by_waist_zh": {
+      "male_over_90cm_percent": "約 25–28%（2017–2020）",
+      "female_over_80cm_percent": "約 30–35%（更年期後顯著升高）"
+    },
+    "source": "衛福部國民健康署（2007）；IDF Consensus (2006)",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "waist-hip-ratio",
+    "topic_zh": "腰臀比（Waist-to-Hip Ratio, WHR）",
+    "calculation_zh": "腰圍（cm）÷ 臀圍（cm）",
+    "risk_cutpoints": {
+      "male_high_risk": "≥ 0.90",
+      "female_high_risk": "≥ 0.85",
+      "authority_zh": "WHO (2008)"
+    },
+    "comparison_with_waist_zh": "腰臀比納入臀圍（皮下脂肪多的梨型身材臀圍大），對心血管風險的預測在某些研究中優於單純腰圍",
+    "limitation_zh": "臀圍測量重複性較差（位置難以精確定義），實際應用不如腰圍簡便",
+    "source": "WHO (2008) Waist Circumference and Waist–Hip Ratio: Report of a WHO Expert Consultation",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "waist-height-ratio",
+    "topic_zh": "腰高比（Waist-to-Height Ratio, WHtR）",
+    "calculation_zh": "腰圍（cm）÷ 身高（cm）",
+    "universal_cutpoint": 0.5,
+    "recommendation_zh": "「腰圍應小於身高一半」是簡單易記的健康目標，適用於不同身高的成人",
+    "advantage_zh": "自動校正身高差異，比腰圍切點（男90/女80）更適合不同身高族群。台灣矮小女性（身高155cm）腰圍80cm對應腰高比0.52，已超過健康切點",
+    "taiwan_example_zh": {
+      "female_160cm": "健康腰圍目標 < 80cm（腰高比 0.50）",
+      "female_155cm": "健康腰圍目標 < 77.5cm（注意：低於台灣女性腰圍切點 80cm）",
+      "male_175cm": "健康腰圍目標 < 87.5cm（與台灣男性切點 90cm 相近）"
+    },
+    "evidence_zh": "Browning (2010) 系統性回顧（n=300,000）顯示腰高比 0.5 是預測代謝疾病的最佳單一指標",
+    "source": "Browning LM et al. (2010) Obes Rev. PMID: 19587651",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "visceral-fat-reduction-strategies",
+    "topic_zh": "內臟脂肪減少策略",
+    "most_effective_zh": [
+      {
+        "strategy_zh": "熱量赤字飲食（最有效）",
+        "evidence_zh": "每日 500 kcal 赤字可在 12 週減少內臟脂肪 10–12%（Ross R et al., 2000 PMID: 10861410）",
+        "note_zh": "皮下脂肪和內臟脂肪同時減少，但內臟脂肪對熱量赤字反應較皮下脂肪快"
+      },
+      {
+        "strategy_zh": "有氧運動（量最重要）",
+        "evidence_zh": "每週有氧運動 150–250 分鐘（中等強度）可在 3 個月減少內臟脂肪 5–8%",
+        "note_zh": "運動量比強度更重要。台灣快走、騎 YouBike、爬山均可達到效果",
+        "source": "Vissers D et al. (2013) Obes Rev. PMID: 23208836"
+      },
+      {
+        "strategy_zh": "減少精製碳水和加糖食物",
+        "evidence_zh": "限制果糖（含糖飲料、水果過量）特別有效，因肝臟優先將果糖轉化為肝臟脂肪（de novo lipogenesis）",
+        "taiwan_note_zh": "台灣手搖飲全糖每杯含果糖 20–35g（以高果糖玉米糖漿為主），是內臟脂肪和脂肪肝的主要飲食因素"
+      },
+      {
+        "strategy_zh": "充足睡眠（7–9 小時）",
+        "evidence_zh": "每日睡眠 < 6 小時者內臟脂肪堆積速度比 7–8 小時者快 32%（Chaput JP et al.）",
+        "note_zh": "睡眠不足升高皮質醇（促內臟脂肪儲存）、提高 Ghrelin（飢餓感增加）"
+      }
+    ],
+    "ineffective_strategies_zh": [
+      "局部運動（如仰臥起坐）：無法選擇性減少腹部脂肪，僅強化局部肌肉",
+      "單純阻力訓練（無熱量赤字）：增加肌肉但不顯著減少內臟脂肪"
+    ],
+    "source": "Ross R et al. (2000) Ann Intern Med. PMID: 10861410",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]
